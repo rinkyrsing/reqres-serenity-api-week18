@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="in.reqres.reqresinfo.UsersCRUDTest" skipped="0" tests="14" time="5.78" timestamp="2022-06-08T00:37:22.660+01:00[Europe/London]"><testcase classname="in.reqres.reqresinfo.UsersCRUDTest" name="This will create users by name:{0}, job: {1}"/><testcase classname="in.reqres.reqresinfo.UsersCRUDTest" name="Verify new users information add"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+in.reqres.reqresinfo.UsersSteps.getProductInfoByName(UsersSteps.java:48)&#13;
+in.reqres.reqresinfo.UsersCRUDTest.test002(UsersCRUDTest.java:44)&#13;
+</system-err></testcase><testcase classname="in.reqres.reqresinfo.UsersCRUDTest" name="This is for users to login "><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+in.reqres.reqresinfo.UsersSteps.loginUser(UsersSteps.java:66)&#13;
+in.reqres.reqresinfo.UsersCRUDTest.test003(UsersCRUDTest.java:51)&#13;
+</system-err></testcase><testcase classname="in.reqres.reqresinfo.UsersCRUDTest" name="This will update a user by PUT"/><testcase classname="in.reqres.reqresinfo.UsersCRUDTest" name="This will update a user by Patch"/><testcase classname="in.reqres.reqresinfo.UsersCRUDTest" name="This will delete a use"/><testcase classname="in.reqres.reqresinfo.UsersCRUDTest" name="1. This will verify if Page = 2"/><testcase classname="in.reqres.reqresinfo.UsersCRUDTest" name="2. This will if verify Per_page = 6"/><testcase classname="in.reqres.reqresinfo.UsersCRUDTest" name="3. This will if verify second data id = 8"/><testcase classname="in.reqres.reqresinfo.UsersCRUDTest" name="4. This will if verify forth data first_name = Byron"/><testcase classname="in.reqres.reqresinfo.UsersCRUDTest" name="5. This will if verify list of data = 6"/><testcase classname="in.reqres.reqresinfo.UsersCRUDTest" name="6. This will if verify fifth data avatar=https://reqres.in/img/faces/12-image.jpg"/><testcase classname="in.reqres.reqresinfo.UsersCRUDTest" name="7. This will if verify support.url =https://reqres.in/#support-heading"/><testcase classname="in.reqres.reqresinfo.UsersCRUDTest" name="8. This will if verify support.text = To keep ReqRes free, contributions towards server costs are appreciated!"/></testsuite>
